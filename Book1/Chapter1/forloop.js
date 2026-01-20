@@ -34,6 +34,15 @@ for (var i = 0; i < 5; ++i) {
 }
 
 
-for (var i = 1; i > 5; --i) {
+// Initialize i with the value 1
+// The loop condition checks if i is less than 5
+// After each iteration, i is decremented (--i)
+for (var i = 1; i < 5; --i) {
+
+   // Print the current value of i to the console
+   // This will cause an infinite loop because i keeps decreasing
+   // and will always remain less than 5
    console.log(i);
 }
+
+

@@ -1,0 +1,49 @@
+/* Style the entire page background */
+body {
+   /* Create a vertical gradient background */
+   background-image: linear-gradient(#d0ebff, #339af0);
+   
+   /* Prevent the background from repeating */
+   background-repeat: no-repeat;
+   
+   /* Keep the background fixed when scrolling */
+   background-attachment: fixed;
+}
+
+/* Style the element that displays the name */
+#myName {
+   /* Center the text horizontally */
+   text-align: center;
+   
+   /* Set the text color */
+   color: #339af0;
+   
+   /* Add a shadow behind the element */
+   box-shadow: 1px 5px 5px;
+   
+   /* Increase the text size */
+   font-size: 2.5rem;
+   
+   /* Set the font style */
+   font-family: 'Times New Roman', Times, serif;
+}
+
+/* Style the button used to change the list */
+#changeList {
+   /* Round the corners of the button */
+   border-radius: 20px;
+   
+   /* Add space inside the button */
+   padding: 10px;
+   
+   /* Set the button background color */
+   background-color: #74c0fc;
+   
+   /* Add a border around the button */
+   border: 1px outset;
+}
+
+/* Change button text color when hovered over */
+button:hover {
+   color: white;
+}

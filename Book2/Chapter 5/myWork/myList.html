@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- Declares the document type as HTML5 -->
+<html lang="en">
+
+<head>
+   <!-- Sets the character encoding -->
+   <meta charset="UTF-8">
+
+   <!-- Makes the page responsive on different screen sizes -->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- Title shown in the browser tab -->
+   <title>Document</title>
+
+   <!-- Link to the external CSS stylesheet -->
+   <link rel="stylesheet" href="myList.css">
+</head>
+
+<body>
+
+   <!-- Main heading displaying the user's name -->
+   <h1 id="myName">Ruan</h1>
+   <br>
+   <hr>
+
+   <!-- Paragraph describing what the user is learning -->
+   <p id="aboutMe">
+      <em>
+         I'm learning to build <mark>dynamic</mark> web pages with
+         <strong>JavaScript and HTML!</strong>
+      </em>
+   </p>
+
+   <hr>
+
+   <!-- Section heading -->
+   <h2>Things I Like</h2>
+
+   <!-- Short description of the list -->
+   <p>Here are some of the things I like to do:</p>
+
+   <!-- Unordered list that will be updated using JavaScript -->
+   <ul>
+      <li id="first_item">Enter your first item</li>
+      <li id="second_item">Enter your second item</li>
+      <li id="third_item">Enter your third item</li>
+   </ul>
+
+   <!-- Button that triggers the JavaScript function to change the list -->
+   <button id="changeList" type="button">
+      Change your list
+   </button>
+
+   <!-- Link to the external JavaScript file -->
+   <script src="myList.js"></script>
+</body>
+
+</html>

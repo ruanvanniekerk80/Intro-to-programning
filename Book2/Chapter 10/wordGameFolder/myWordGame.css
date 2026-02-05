@@ -1,0 +1,63 @@
+/* Styles the entire page */
+body {
+    font-family: "arial"; /* Sets the font for all text */
+    background-image: linear-gradient(orange, yellow); /* Gradient background */
+    background-repeat: repeat; /* Allows background to repeat */
+    background-attachment: fixed; /* Keeps background fixed while scrolling */
+}
+
+/* Container for input words section */
+#inputWords {
+    float: left; /* Moves section to the left */
+    width: 45%; /* Takes up 45% of the page width */
+    color: blue; /* Text color */
+}
+
+/* Removes default list styling */
+ul {
+    list-style-type: none; /* No bullets */
+    padding: 0px; /* Removes inner spacing */
+    margin: 0px; /* Removes outer spacing */
+}
+
+/* Styles each list item */
+li {
+    line-height: 2em; /* Space between lines */
+    text-transform: uppercase; /* Makes text uppercase */
+    margin-top: 8px; /* Space above each item */
+}
+
+/* Styles text input fields */
+input[type=text] {
+    border-width: 0 0 1px 0; /* Bottom border only */
+    border-color: #1e0851; /* Border color */
+    background-color: rgb(239, 241, 174); /* Light yellow background */
+}
+
+/* Container for the button */
+#buttonDiv {
+    position: absolute; /* Positioned relative to page */
+    top: 35%; /* Vertical position */
+    left: 50%; /* Horizontal position */
+}
+
+/* Styles the replace button */
+#replaceButton {
+    margin-top: 30px; /* Space above button */
+    width: 200px; /* Button width */
+}
+
+/* Styles the story output area */
+#story {
+    margin-top: 12px; /* Space above */
+    width: 45%; /* Takes up 45% of the page width */
+    border: 1px dashed red; /* Red dashed border */
+    padding: 8px; /* Inner spacing */
+    float: left; /* Moves section to the left */
+}
+
+/* Highlights replaced words */
+.replacement {
+    text-decoration: underline; /* Underlines text */
+    text-transform: uppercase; /* Makes text uppercase */
+}

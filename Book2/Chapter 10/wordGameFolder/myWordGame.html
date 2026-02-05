@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- Declares the document type and version of HTML -->
+
+<html lang="en">
+<!-- Root element of the page, language set to English -->
+
+<head>
+    <!-- Metadata and resources for the page -->
+
+    <meta charset="UTF-8">
+    <!-- Ensures proper character encoding -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Helps with compatibility in older versions of Internet Explorer -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Makes the page responsive on different screen sizes -->
+
+    <title>Document</title>
+    <!-- Title shown in the browser tab -->
+
+    <link rel="stylesheet" href="myWordGame.css">
+    <!-- Links the external CSS file for styling -->
+</head>
+
+<body>
+    <!-- Main content of the webpage -->
+
+    <div id="inputWords">
+        <!-- Container for all user input fields -->
+
+        <ul>
+            <!-- Unordered list to organize input fields -->
+
+            <li>
+                <!-- First word input -->
+                <input type="text" id="adj1" placeholder='"Enter text here"' />
+                <br>
+                Adjective_1
+            </li>
+
+            <li>
+                <!-- Second word input -->
+                <input type="text" id="verbIng" placeholder='"Enter text here"' />
+                <br>
+                Noun_1
+            </li>
+
+            <li>
+                <!-- Plural noun input -->
+                <input type="text" id="nounPlural" placeholder='"Enter text here"' />
+                <br>
+                Plural noun
+            </li>
+
+            <li>
+                <!-- Another adjective input -->
+                <input type="text" id="adj2" placeholder='"Enter text here"' />
+                <br>
+                Adjective_2
+            </li>
+
+            <li>
+                <!-- Music type input -->
+                <input type="text" id="musicType" placeholder='"Enter text here"'>
+                musicType
+            </li>
+        </ul>
+
+        <div id="buttonDiv">
+            <!-- Button container -->
+            <button id="replaceButton">Replace it!</button>
+            <!-- Button that will trigger JavaScript functionality -->
+        </div>
+    </div>
+
+    <div id="story"></div>
+    <!-- Empty div where the generated story will be displayed -->
+
+    <script src="myWordGame.js"></script>
+    <!-- Links the JavaScript file that controls the game logic -->
+</body>
+
+</html>

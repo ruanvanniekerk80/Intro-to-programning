@@ -1,0 +1,35 @@
+body {
+   font-family: 'Times New Roman', Times, serif;
+   background-image: linear-gradient(blue, yellow);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+#listPage.print {
+   background-color: #9ca1d0;
+   padding: 20px;
+
+}
+
+#listPage.print ul {
+   margin: 10px 0px;
+   padding: 0px;
+   border-left: 4px double red;
+}
+
+#listPage.print li {
+   list-style-type: none;
+   margin: 0px -20px;
+   padding-left: 26px;
+   border-bottom: 1px solid blue;
+   line-height: 36px;
+   font-size: 24px;
+}
+
+#formArea, #list {
+   font-family: cursive;
+}
+
+h1 {
+   text-align: center;
+}

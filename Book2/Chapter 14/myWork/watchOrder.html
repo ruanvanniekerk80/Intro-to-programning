@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+   <title>Watch boutique</title>
+
+   <link rel="stylesheet" href="watchOrder.css">
+
+</head>
+
+<body>
+   <h1>RVN Watch boutique </h1>
+   <div id="orderForm">
+      <label>How many watches do you want? <br>
+         <input type="number" id="numWatch" />
+      </label>
+      <br />
+      <br />
+      <label>What kind of Watch? <br>
+         <select id="typeWatch">
+            <option value="select">--Select--</option>
+            <option value="ap">Audemars Piguet</option>
+            <option value="Rolex">Rolex</option>
+            <option value="Omega">Omega</option>
+         </select>
+      </label>
+      <br />
+      <br />
+      <label>Where do you live? <br>
+         <select id="deliveryCity">
+            <option value="Town">--Select Town--</option>
+            <option value="Johannesburg">Johannesburg</option>
+            <option value="Pretoria">Pretoria</option>
+         </select>
+      </label>
+      <br />
+      <br />
+      <label>Do you have a voucher? <br>
+         <select id="Voucher">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+         </select>
+      </label>
+      <br />
+      <br />
+      <button type="button" id="placeOrder">Place
+         Order</button>
+   </div>
+   <div class="display" id="displayTotal"></div>
+
+   <script src='watchOrder.js'></script>
+</body>
+
+</html>

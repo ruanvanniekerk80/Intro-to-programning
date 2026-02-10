@@ -1,0 +1,36 @@
+body {
+   font-family: Arial, sans-serif;
+}
+
+h1 {
+   text-align: center;
+   border: 4px double black;
+   box-shadow: 3px 5px 3px black;
+   background-image: linear-gradient(blue, yellow);
+   background-repeat: no-repeat;
+   color: yellow;
+}
+
+#orderForm {
+   background-image: linear-gradient(yellow, blue);
+   border: 4px solid black;
+   border-radius: 4px;
+   padding: 8px;
+   margin: 8px;
+   box-shadow: 10px 10px 5px #888888;
+   height: 400px;
+   text-align: center;
+}
+
+button {
+
+   padding: 15px;
+   border-radius: 20px;
+}
+
+.display {
+   text-align: center;
+   border: 1px dotted black;
+   color: white;
+   background-color: blue;
+}

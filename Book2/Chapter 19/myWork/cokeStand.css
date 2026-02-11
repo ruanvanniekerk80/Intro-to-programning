@@ -1,0 +1,83 @@
+/* Page background color */
+body {
+   background-color: rgb(232, 234, 222);
+}
+
+/* Styling for each weekday box */
+#Monday,
+#Tuesday,
+#Wednesday,
+#Thursday,
+#Friday {
+   width: 18%;              /* Each day takes up about 1/5 of the row */
+   height: 200px;           /* Fixed height for consistency */
+   float: left;             /* Align boxes horizontally */
+   border: 1px solid black; /* Visible border around each day */
+   padding: 2px;            /* Small inner spacing */
+   font-family: sans-serif;
+   font-size: 12px;
+}
+
+/* Sunny weather style */
+.Sunny {
+   background-image: linear-gradient(white, yellow);
+}
+
+/* Raining weather style */
+.Raining {
+   background-color: lightgrey;
+}
+
+/* Cloudy weather style */
+.Cloudy {
+   background-image: linear-gradient(white, rgb(111, 162, 229));
+}
+
+/* Thunderstorm weather style */
+.Thunderstorm {
+   background-image: linear-gradient(to top, rgb(12, 12, 175), black);
+   color: #fff; /* White text for contrast */
+}
+
+/* Order form container */
+#orderForm {
+   width: 75%;            /* Centered, narrower than full page */
+   margin: 20px auto;
+}
+
+/* Receipt section styling */
+#receipt {
+   background-color: #996600;
+   color: yellow;
+   padding: 6px;
+}
+
+/* Result output box */
+#result {
+   border: 1px solid black;
+   padding: 10px;
+   margin: 15px;
+   box-shadow: 4px 7px 10px; /* Drop shadow effect */
+}
+
+/* Button default style */
+button {
+   margin-top: 15px;
+   padding: 10px;
+   font-size: 15px;
+   font-family: Arial, Helvetica, sans-serif;
+   border-radius: 10px;     /* Rounded corners */
+   border: 1px none;
+   background-color: rgb(222, 70, 98);
+}
+
+/* Button hover effect */
+button:hover {
+   background-color: rgb(243, 83, 112);
+}
+
+/* Spacing for cans and price inputs */
+#cans,
+#price {
+   margin-top: 15px;
+}

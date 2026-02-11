@@ -1,0 +1,62 @@
+/* Style each weekday box */
+#Monday,
+#Tuesday,
+#Wednesday,
+#Thursday,
+#Friday {
+    width: 18%;
+    /* Each day takes up 18% of the row */
+    height: 200px;
+    /* Fixed height for the day box */
+    float: left;
+    /* Align boxes next to each other horizontally */
+    border: 1px solid black;
+    /* Black border around each day */
+    padding: 2px;
+    /* Small space inside each box */
+    font-family: sans-serif;
+    /* Clean, readable font */
+    font-size: 12px;
+    /* Small text size */
+}
+
+/* Weather condition styles */
+.Sunny {
+    background-color: skyblue;
+    /* Light blue background for sunny weather */
+}
+
+.Raining {
+    background-color: lightgrey;
+    /* Grey background for rainy weather */
+}
+
+.Cloudy {
+    background-color: #eee;
+    /* Very light grey for cloudy weather */
+}
+
+.Thunderstorm {
+    background-color: #333;
+    /* Dark background for stormy weather */
+    color: #fff;
+    /* White text for contrast */
+}
+
+/* Order form container styling */
+#orderForm {
+    width: 75%;
+    /* Form takes up 75% of page width */
+    margin: 20px auto;
+    /* Centers the form horizontally with spacing above/below */
+}
+
+/* Receipt display styling */
+#receipt {
+    background-color: #996600;
+    /* Brown background */
+    color: yellow;
+    /* Yellow text */
+    padding: 6px;
+    /* Space inside the receipt box */
+}

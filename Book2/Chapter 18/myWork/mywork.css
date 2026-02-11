@@ -1,0 +1,47 @@
+/* Styles for the entire page */
+body {
+   /* Sets the default font for the page */
+   font-family: sans-serif;
+
+   /* Creates a vertical gradient background from red to white */
+   background-image: linear-gradient(red, white);
+
+   /* Prevents the background from repeating */
+   background-repeat: no-repeat;
+}
+
+/* Styles for the instructions section */
+#instructions {
+   /* Sets a light gray background color */
+   background-color: rgb(183, 178, 179);
+
+   /* Adds space inside the element */
+   padding: 6px;
+
+   /* Adds space outside the element */
+   margin: 6px;
+
+   /* Creates a double-lined black border */
+   border: 3px double black;
+}
+
+/* Styles for the order form container */
+#orderForm {
+   /* Sets the form width to 75% of the page */
+   width: 75%;
+
+   /* Centers the form horizontally and adds vertical spacing */
+   margin: 20px auto;
+}
+
+/* Styles for the receipt section */
+#receipt {
+   /* Sets a dark red background color */
+   background-color: #990d00;
+
+   /* Changes text color to yellow for contrast */
+   color: yellow;
+
+   /* Adds space inside the receipt box */
+   padding: 6px;
+}

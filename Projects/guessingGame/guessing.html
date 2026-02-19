@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- Declares the document as HTML5 -->
+
+<html lang="en">
+<!-- Root element of the page, language set to English -->
+
+<head>
+   <meta charset="UTF-8">
+   <!-- Ensures proper character encoding -->
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Makes the page responsive on different screen sizes -->
+
+   <title>Guessing Game</title>
+   <!-- Title shown in the browser tab -->
+
+   <link rel="stylesheet" href="guessing.css">
+   <!-- Links the external CSS file for styling -->
+</head>
+
+<body>
+
+   <!-- Main container that wraps the entire game -->
+   <div class="mainContainer">
+
+      <!-- Container that holds all guessing game elements -->
+      <div id="guessingContainer">
+
+         <!-- Area where feedback (too high, too low, correct) will be displayed -->
+         <div id="result"></div>
+
+         <!-- Label section containing instructions and input field -->
+         <label>
+            <h4>Guess a number from 1-20</h4>
+            <!-- Instruction for the user -->
+
+            <input id="numberInput" type="number">
+            <!-- Input field where the user enters their guess -->
+         </label>
+
+         <!-- Button that triggers the storedValue() function in JavaScript -->
+         <button onclick="storedValue()" id="btn">Click</button>
+
+      </div>
+   </div>
+
+   <!-- Links the external JavaScript file that controls game logic -->
+   <script src="guessing.js"></script>
+
+</body>
+
+</html>

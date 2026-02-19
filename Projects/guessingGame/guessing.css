@@ -1,0 +1,71 @@
+/* Apply border-box sizing to all elements 
+   This makes width and height include padding and border */
+* {
+   box-sizing: border-box;
+}
+
+/* Style the page background with a blue-to-white gradient */
+body {
+   background-image: linear-gradient(to right, blue, white);
+}
+
+/* Main container that holds the entire game 
+   Uses flexbox to center content vertically and horizontally */
+.mainContainer {
+   max-width: 1000px;
+   height: 500px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+/* Container for the guessing game 
+   Styled like a centered card with shadow and border */
+#guessingContainer {
+   background-color: rgb(171, 178, 249);
+   height: 350px;
+   width: 500px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border: 2px solid black;
+   box-shadow: 3px 5px 10px;
+}
+
+/* Style for the main button */
+#btn {
+   padding: 10px;
+   /* Adds space inside the button */
+   margin-top: 20px;
+   /* Adds space above the button */
+   border-radius: 10px;
+   /* Rounds the button corners */
+   border: none;
+   /* Removes default border */
+   background-color: rgb(113, 136, 237);
+}
+
+/* Change button color slightly when hovered over */
+#btn:hover {
+   background-color: rgba(133, 136, 237, .8);
+}
+
+/* Area where feedback messages are displayed */
+#result {
+   height: 40px;
+   width: 90%;
+   margin-bottom: 4px;
+   font-size: 1.4em;
+   /* Makes result text larger */
+}
+
+/* Style for the number input field */
+input {
+   width: 40%;
+   /* Makes input smaller than container */
+   border: 1px solid black;
+   /* Adds visible border */
+}

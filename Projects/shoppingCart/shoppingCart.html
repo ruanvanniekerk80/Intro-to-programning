@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- Declares the document as HTML5 -->
+
+<html lang="en">
+<!-- Root element of the page, language set to English -->
+
+<head>
+   <meta charset="UTF-8">
+   <!-- Ensures correct character encoding -->
+
+   <title>Snack Shop</title>
+   <!-- Title shown in the browser tab -->
+
+   <link rel="stylesheet" href="shoppinCart.css">
+   <!-- Links the external CSS file for styling -->
+</head>
+
+<body>
+
+   <!-- Main heading for the shop -->
+   <h2>Ruan's Snack Shop</h2>
+
+   <!-- Table that will display snack items -->
+   <table>
+
+      <!-- Table header row describing each column -->
+      <thead>
+         <tr>
+            <th>Item</th> <!-- Product image -->
+            <th>Description</th> <!-- Product name -->
+            <th>Price (R)</th> <!-- Price per item -->
+            <th>Quantity</th> <!-- Quantity controls -->
+            <th>Total (R)</th> <!-- Total cost per item -->
+         </tr>
+      </thead>
+
+      <!-- Table body left empty so JavaScript can insert rows dynamically -->
+      <tbody id="menu"></tbody>
+   </table>
+
+   <!-- Displays the grand total price -->
+   <div id="result">
+      R <span id="total">0.00</span>
+   </div>
+
+   <!-- Checkout button that calculates the final total -->
+   <button onclick="finalResult()" id="btn-checkout">Checkout</button>
+
+   <!-- Links the external JavaScript file that controls functionality -->
+   <script src="shoppingCart.js"></script>
+
+</body>
+
+</html>
